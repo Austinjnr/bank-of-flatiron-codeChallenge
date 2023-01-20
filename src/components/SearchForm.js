@@ -1,7 +1,7 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faSearch} from "@fortawesome/free-solid-svg-icons"
 
-function Search(){
+function SearchForm(){
     return (
             <form id="search-form">
                 <input id="search" placeholder="Search Transanctions..." type={"text"}/>
@@ -9,5 +9,4 @@ function Search(){
             </form>
     )
 }
-
-export default Search
+export default SearchForm;

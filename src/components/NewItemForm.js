@@ -1,7 +1,7 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faPlus } from "@fortawesome/free-solid-svg-icons"
 
-function NewItem() {
+function NewItemForm() {
     return (
         <form id="new-item-form">
             <div className="form-inputs">
@@ -15,5 +15,4 @@ function NewItem() {
         </form>
     )
 }
-
-export default NewItem;
+export default NewItemForm;

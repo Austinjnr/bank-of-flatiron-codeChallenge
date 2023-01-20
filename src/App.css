@@ -1,38 +1,114 @@
-.App {
+* {
+  box-sizing: border-box;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  width: 25% !important;
+  margin-right: 0.25em!important;
+  margin-left: 0.25em!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
+  padding: 8px;
+  padding-right: 25px;
+  font-family: 'Times New Roman', Times, serif;
 }
+
+.App {
+  text-align: center;
+  padding: 5px;
+}
+.header{
+  background: #21ac44;
+  color: white;
+  padding: 1px;
+}
+
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgb(15, 14, 14);
+  padding: 20px;
+  color: rgb(16, 12, 12);
+}
+#search-form{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  border: 1px solid rgb(11, 11, 11);
+   margin: 5px 0;
+  height: 40px;
+  border-radius: 10px;
+  padding: 4px;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+#search{
+  text-align: left;
+  flex: 1;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 80%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#search-form button{
+background: transparent;
+border: none;
+outline: none;
+font-size: 26px;
+cursor: pointer;
+}
+.form-inputs{
+  display: flex;
+  justify-content: space-evenly;
+}
+#new-item-form{
+  height: 70px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin: 6px 0;
+  padding: 5px;
+}
+.text-input{
+  text-align: left;
+}
+#new-item-form input{
+  height: 25px;
+  font-size: 16px;
+}
+#new-item-form button{
+  height: 25px;
+  margin-top: 8px;
+  border-radius: 0;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+#fa-plus{
+  color: rgb(150, 27, 136);
+  font-weight: 600;
+  font-size: 15px;
+}
+table{
+  width: 100%;
+  border-radius: 4px;
+  border-collapse:collapse;
+}
+tr,td,th,table{
+  border: 1px solid;
+}
+th{
+  background: #146334c1;
+  color: rgb(237, 229, 229);
+  padding: 6px;
+}
+td{
+  padding: 3px;
+}
+.even{
+  background: #d6d7d983;
+}
+tr:hover{
+  color: rgba(7, 255, 15, 0.73);
+  font-weight: 600;
 }

@@ -1,6 +1,4 @@
-function TransactionItem(
-    {index, category,date,description,amount}
-    ){
+function TransactionItem({index, category,date,description,amount}){
     const isEven= index%2===0
     return (
         <tr className={isEven?"even":""}>
@@ -11,5 +9,4 @@ function TransactionItem(
         </tr>
     )
 }
-
 export default TransactionItem;
