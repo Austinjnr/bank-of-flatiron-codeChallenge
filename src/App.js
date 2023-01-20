@@ -3,7 +3,7 @@ import NewItemForm from './components/NewItemForm';
 import SearchForm from './components/SearchForm';
 import Transactions from './components/Transactions';
 
-
+//when i try accessing the site via the deployed link transactions are not been displayed but via npm start all is okay
 function App() {
   return (
     <div className="ui raise segment">
