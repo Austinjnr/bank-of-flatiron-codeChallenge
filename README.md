@@ -1,5 +1,5 @@
 # Bank of Flatiron
-This a web application of flatiron Bank built in react, to access the platform this link.
+This a web application of flatiron Bank built in react, to access the platform <a href="https://roaring-kulfi-5201c7.netlify">follow this link.</a>
 
 ## Description
 
