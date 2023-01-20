@@ -11,12 +11,12 @@ To use this rep on your machine, requires some simple steps:
 - Open a terminal/ command line interface on your computer
 - Clone the repo by;
 
-        git clone 
+        git clone git@github.com:Austinjnr/bank-of-flatiron-codeChallenge.git
 
 - Once it creates a copy on your local machine for you.
 - Change directory to the repo folder:
 
-        cd 
+        cd bank-of-flatiron-codeChallenge
 
 - Open it in ``Visual Studio Code``
 
