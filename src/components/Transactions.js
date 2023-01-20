@@ -28,7 +28,7 @@ function Transactions() {
                     amount={transaction.amount}
                     key={transaction.id}
                     />
-                })}/default.asp
+                })}
             </table>
         </>
     )
