@@ -1,4 +1,6 @@
-function TransactionItem({index, category,date,description,amount}){
+import React from "react";
+
+function TransactionItem({index,category,date,description,amount}){
     const isEven= index%2===0
     return (
         <tr className={isEven?"even":""}>

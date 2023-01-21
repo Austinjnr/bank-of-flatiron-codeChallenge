@@ -4,21 +4,20 @@ import TransactionItem from "./TransactionItem"
 function Transactions() {
     const [transactions, setTransactions] = useState([])
     useEffect(() => {
-        fetch("http://localhost:6001/transactions")
+        fetch("https://api-test-7h6w.onrender.com/transactions")
             .then(r => r.json())
             .then(transc => setTransactions(transc))
             .catch(err => console.log(err))
     }, [])
     return (
-        <>
-            <table>
+        <div>
+             <table>
                 <tr>
                     <th>DATE</th>
                     <th>CATEGORY</th>
                     <th>DESCRIPTION</th>
                     <th>AMOUNT</th>
                 </tr>
-                {/* trs */}
                 {transactions.map((transaction,index)=>{
                     return <TransactionItem 
                     index={index}
@@ -30,7 +29,8 @@ function Transactions() {
                     />
                 })}
             </table>
-        </>
+        </div>
+           
     )
 }
 export default Transactions;
